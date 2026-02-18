@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="YardManagement.API/YardManagement.API.csproj" />
+  <Project Path="YardManagement.Core/YardManagement.Core.csproj" />
+  <Project Path="YardManagement.Infrastructure/YardManagement.Infrastructure.csproj" />
+</Solution>
