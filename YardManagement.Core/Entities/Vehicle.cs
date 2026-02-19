@@ -16,7 +16,7 @@ namespace YardManagement.Core.Entities
         public bool IsActive { get; set; } = true;
         public DateTime CreatedDate { get; set; } = DateTime.UtcNow;
 
-        public int customerId { get; set; }
+        public int CustomerId { get; set; }
         public Customer Customer { get; set; } = null!;
 
 

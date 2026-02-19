@@ -6,7 +6,7 @@ namespace YardManagement.Core.Entities
 {
     public class MaterialPriceLog
     {
-        public int PriceLogId { get; set; }
+        public int MaterialPriceLogId { get; set; }
 
         public int MaterialId { get; set; }
         public Material Material { get; set; } = null!;
