@@ -11,7 +11,7 @@ namespace YardManagement.Infrastructure.Data
         }
 
         public DbSet<User> Users => Set<User>();
-        public DbSet<Customer> Customers => Set<Customer>();
+        public DbSet<Customer> Customers => Set<Customer>(); 
         public DbSet<Vehicle> Vehicles => Set<Vehicle>();
         public DbSet<Material> Materials => Set<Material>();
         public DbSet<MaterialPriceLog> MaterialPriceLogs => Set<MaterialPriceLog>();
